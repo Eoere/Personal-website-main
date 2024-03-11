@@ -1,0 +1,63 @@
+body{
+    
+    
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-size: cover;
+    background-color: black;
+    color: white;
+}
+p{
+    font-style: italic;
+    font-size: larger;
+    float: left;
+}
+.hlist,.languagelist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+.certificationlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    color: white;
+    text-align: left;
+    font-size: larger;
+    font-style: oblique;
+}
+.dropdown,.dropdown-menu {
+    
+    overflow: hidden;
+    text-align: right;
+}
+.description{
+    font-size: larger;
+    font-style: oblique;
+    color: white;
+    text-align: left;
+}
+
+
+ul,li:hover ,a:hover{
+    display: block;
+    color: black;
+    
+
+}
+.Aboutme{
+    color:navy;
+    display: block;
+    
+}
+ul{
+    font-size: larger;
+    font-style: oblique;
+}

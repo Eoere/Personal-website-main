@@ -1,63 +1,27 @@
-body{
-    
-    
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   background-size: cover;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
     background-color: black;
     color: white;
 }
-p{
+.header1 {
+    font-size: 2em;
     font-style: italic;
-    font-size: larger;
-    float: left;
-}
-.hlist,.languagelist{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: palevioletred;
-    color: black;
+    color: white;
     text-align: center;
-    font-size: larger;
-    font-style: oblique;
-}
-.certificationlist{
-    list-style-type: none;
+    background-color: black;
+    padding: 10px;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
+}
+.navbar1 {
+    background-color: black;
     color: white;
-    text-align: left;
-    font-size: larger;
-    font-style: oblique;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
 }
-.dropdown,.dropdown-menu {
-    
-    overflow: hidden;
-    text-align: right;
-}
-.description{
-    font-size: larger;
-    font-style: oblique;
-    color: white;
-    text-align: left;
+.navbarl{
+    display:inline-block;
 }
 
 
-ul,li:hover ,a:hover{
-    display: block;
-    color: black;
-    
-
-}
-.Aboutme{
-    color:navy;
-    display: block;
-    
-}
-ul{
-    font-size: larger;
-    font-style: oblique;
-}

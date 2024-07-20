@@ -84,3 +84,41 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.skill-bar {
+    width: 100%;
+    background-color:black;
+    margin: 10px 0;
+}
+
+.skill-level {
+    height: 25px;
+    background-color: #444;
+    width: 0;
+    transition: width 2s;
+}
+.form-group {
+    width: 100%;
+    background-color:black;
+    margin: 10px 0;
+    display:block;
+}
+form[name="form-group"] label,
+form[name="form-group"] input,
+form[name="form-group"] textarea,
+form[name="form-group"] button {
+    display: block;
+    margin-bottom: 10px;
+}
+body.dark-theme {
+    background-color:palegreen;
+    color: #fff;
+}
+nav.dark-theme {
+    background-color: red;
+}
+nav.dark-theme ul li a {
+    color: #fff;
+}
+footer.dark-theme {
+    background-color: #555;
+}
